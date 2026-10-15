@@ -1,0 +1,54 @@
+/* estilos4.css */
+
+/* Todos los elementos de la página */
+* {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.7;
+    color: #534954;
+}
+
+/* Los párrafos de la página */
+p {
+    color: #765;
+}
+
+/* Todos los párrafos de clase "ini" */
+p.ini {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2em;
+}
+
+/* Los elementos h1 de la página */
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/* Los párrafos que estén en el div con id "principal" */
+#principal p {
+    color: skyblue;
+    padding: 1.2em;
+}
+
+/* Los elementos span que estén dentro de párrafos */
+p span {
+    background: lightgreen;
+}
+
+/* Los elementos con id "principal" o con id "secundaria" */
+#principal,
+#secundaria {
+    background: #339966;
+    border: 1px solid grey;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+/* Todos los enlaces que estén dentro de párrafos con clase "ini" */
+p.ini a {
+    text-decoration: none;
+    color: #FF9019;
+    font-weight: bold;
+}
